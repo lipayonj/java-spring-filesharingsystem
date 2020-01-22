@@ -1,0 +1,52 @@
+body{
+	padding-top:100px;
+}
+
+#navigation{
+	padding-top:5px;
+	height:60px;
+	background: #F9F9F9; 
+	box-shadow: 0px 2px 2px #707070;
+}
+
+#composemail{
+	background: rgb(255, 255, 255);
+}
+ 
+label{
+	text-align:right;
+} 
+
+span{
+	color:red;
+}
+
+textarea{
+	width:10px;
+}
+
+#buttons{
+	text-align:center;
+}
+
+<<<<<<< .mine
+.fileProgress {
+  white-space: nowrap;
+  width: 100%;                   
+  overflow: hidden;       
+  text-overflow: ellipsis;
+}
+.fileProgress:hover {
+    color:666;
+    cursor:pointer;
+}
+
+.modal-body{
+	max-height: 400px;
+}
+
+.tablediv{ 
+	max-height: 340px;
+	overflow-y:auto;
+}
+
