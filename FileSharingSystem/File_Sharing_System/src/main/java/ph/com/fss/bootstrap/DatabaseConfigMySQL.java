@@ -50,9 +50,9 @@ public class DatabaseConfigMySQL{
    public DataSource pmsDataSource(){
       DriverManagerDataSource dataSource = new DriverManagerDataSource();
       dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-      dataSource.setUrl("jdbc:mysql://pms2015.alliance.com.ph/pms2015");
+      dataSource.setUrl("jdbc:mysql://pms2015.fss.com.ph/pms2015");
       dataSource.setUsername("root");
-      dataSource.setPassword("Alliance@12345");
+      dataSource.setPassword("fss@12345");
       return dataSource;
    }
    
